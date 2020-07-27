@@ -21,8 +21,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
       <TiltShape />
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="UPDATE" />
-          <Heading {...secHeading} content="Meet our new updated screen" />
+          <Text {...secText} content="NEW & UPDATE" />
+          <Heading
+            {...secHeading}
+            content="Meet Our Advanced Smart Pass Software"
+          />
         </Box>
         <Tabs
           renderTabBar={() => <ScrollableInkTabBar />}

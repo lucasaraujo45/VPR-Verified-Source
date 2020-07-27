@@ -203,8 +203,6 @@ export const YEARLY_PRICING_TABLE = [
   },
 ];
 
-
-
 export const FAQ_DATA = [
   {
     expend: true,
@@ -213,7 +211,8 @@ export const FAQ_DATA = [
       'Our Customer Experience Team is available 5 days a week and we offer 2 ways to get in contact.Email and Phone . We try to reply quickly, so you need not to wait too long for a response!. ',
   },
   {
-    title: 'Will it still work if the person being screened is wearing a face mask?',
+    title:
+      'Will it still work if the person being screened is wearing a face mask?',
     description:
       'Yes, It will still recognize the persons face while they are wearing a face mask. The unit also has an option to allow or deny a person from access weather they have a facemask or not. ',
   },
@@ -379,17 +378,17 @@ export const FEATURES = [
 
 export const SCREENSHOTS = [
   {
-    icon: ic_monetization_on,
-    title: 'Budget Overview',
+    icon: pieChart,
+    title: 'Intuitive Dashboard',
     image: Screenshot2,
   },
   {
     icon: ic_settings,
-    title: 'Create & Adjust',
+    title: 'Create & Adjust Settings',
     image: Screenshot1,
   },
   {
-    icon: pieChart,
+    icon: ic_monetization_on,
     title: 'View Reports',
     image: Screenshot2,
   },
