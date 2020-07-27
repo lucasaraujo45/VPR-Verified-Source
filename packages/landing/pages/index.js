@@ -48,7 +48,7 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
-          <WorkingProcessSection />
+          {/* <WorkingProcessSection /> */}
           <InfoSection />
           <FeatureSection />
           <UpdateScreen />
